@@ -11,4 +11,7 @@ module.exports = {
     node: true,
     jest: true,
   },
+  rules: {
+    semi: 'error',
+  },
 };
