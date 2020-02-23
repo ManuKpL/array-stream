@@ -1,9 +1,8 @@
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { FakeData } from '../data';
-import { isIdEven } from './isIdEven';
-import { readName } from './readName';
+import { FakeData } from 'src/data';
+import { isIdEven, readName } from 'src/helpers';
 
 export const singleDataChunk = (data: Observable<FakeData[]>): Observable<string[]> => {
   return data.pipe(

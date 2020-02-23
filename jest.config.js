@@ -6,6 +6,7 @@ module.exports = {
   transform: {
     '^.+\\.(t|j)s$': 'ts-jest',
   },
-  rootDir: './src',
+  rootDir: '.',
   testEnvironment: 'node',
+  moduleDirectories: ['node_modules', '<rootDir>'],
 };
