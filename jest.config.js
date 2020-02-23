@@ -1,5 +1,5 @@
 module.exports = {
-  collectCoverageFrom: ['**/*.ts', '!**/*.spec.ts'],
+  collectCoverageFrom: ['**/*.ts', '!**/*.spec.ts', '!**/__tests__/**/*'],
   coverageDirectory: '../coverage',
   testRegex: '(/__tests__/)?\\.spec\\.ts$',
   moduleFileExtensions: ['js', 'json', 'ts'],
