@@ -1,1 +1,1 @@
-export default console.log('Hello World');
+import './src/main';
