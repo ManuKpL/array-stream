@@ -4,11 +4,13 @@ Test array manipulation through RXJS observable streams
 
 # Results
 
-┌────────────┬───────┬────────────┐
-│ (index) │ size │ iterations │
-├────────────┼───────┼────────────┤
-│ testParams │ 10000 │ 100 │
-└────────────┴───────┴────────────┘
+## testParams
+
+| Size  | Iterations |
+| ----- | ---------- |
+| 10000 | 100        |
+
+## Times
 
 | Array   | Stream   |
 | ------- | -------- |
