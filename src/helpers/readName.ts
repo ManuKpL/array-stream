@@ -1,1 +1,1 @@
-export const readName = (el: { name: string }): string => el.name;
+export const readName = <T extends { name: string }>(el: T): string => el.name;
