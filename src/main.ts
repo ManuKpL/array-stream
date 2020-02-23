@@ -1,2 +1,3 @@
-import 'src/data';
-export default console.log('Hello World');
+import { hypotheses, runHypotheses } from './hypothesis';
+
+runHypotheses(hypotheses);

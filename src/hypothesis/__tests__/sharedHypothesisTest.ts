@@ -1,6 +1,6 @@
 import { Observable, of } from 'rxjs';
 
-import { FakeData } from 'src/data';
+import { FakeData } from '../../data';
 
 export default (hypothesis: (data: Observable<FakeData[]>) => Observable<string[]>): void => {
   test('should be defined', () => {
