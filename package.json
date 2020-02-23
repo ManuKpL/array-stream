@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node -r esm index.ts",
+    "start": "ts-node -r esm index.ts > results.md",
     "test": "jest --colors"
   },
   "devDependencies": {

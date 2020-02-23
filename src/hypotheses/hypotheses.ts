@@ -4,11 +4,11 @@ import { streamDataChunks } from './streamDataChunks';
 
 export const hypotheses: Hypothesis[] = [
   {
-    name: 'singleDataChunk',
+    name: 'Array',
     method: singleDataChunk,
   },
   {
-    name: 'streamDataChunks',
+    name: 'Stream',
     method: streamDataChunks,
   },
 ];
